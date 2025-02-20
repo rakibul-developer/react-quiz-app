@@ -1,11 +1,11 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
-    "source.organizeImorts": true
-  },
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint",
+    "source.fixAll.tslint",
+    "source.organizeImports"
+  ],
   "javascript.validate.enable": false,
   "typescript.validate.enable": false
 }
