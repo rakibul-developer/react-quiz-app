@@ -1,13 +1,13 @@
 import Layout from "../components/layout/Layout";
-import Home from "../components/pages/Home";
 import "../styles/App.css";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Home />
-        hello
+        {/* <Home /> */}
+        <Signup />
       </Layout>
     </div>
   );
